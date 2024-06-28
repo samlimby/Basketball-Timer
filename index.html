@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Basketball Timer</title>
 </head>
 <body>
@@ -16,10 +16,10 @@
         <div class="item-block">
             <p class="score-title">Home</p>
             <div class="score-block">
-                <h1 class="score" id="leftScore">0</h1>
+                <h1 class="score" id="left-score">0</h1>
             </div>
             <div class="count-row">
-                <button class="plus" id="Plus1" onclick="leftPlus1()">+1</button>
+                <button class="plus" id="Plus1" onclick="logLeftScore()">+1</button>
                 <button class="plus" id="Plus2">+2</button>
                 <button class="plus" id="Plus3">+3</button>
             </div>

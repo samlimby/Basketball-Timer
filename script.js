@@ -1,16 +1,15 @@
-let score = 0;
-document.getElementById("leftScore").textContent = score;
+let countLeft = document.getElementById("left-score")
+console.log(countLeft)
 
+leftScore = 5
 
-let plus1 = 1;
-document.getElementById("plus1") = plus1
-let plus2 = 2;
-let plus3 = 3;
+let plus1 = 1
+let plus2 = 2
+let plus3 = 3
 
-function leftPlus1 () {
-    let leftScore = score += plus1;
-    labelElement.innerText = leftScore;
-    console.log(leftScore)
+function logLeftScore () {
+    console.log("the button was clicked")
+    leftScore = leftScore + 1;
+    countLeft.innerText = leftScore
 
 }
-
