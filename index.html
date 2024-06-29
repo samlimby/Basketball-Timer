@@ -19,10 +19,11 @@
                 <h1 class="score" id="left-score">0</h1>
             </div>
             <div class="count-row">
-                <button class="plus" id="Plus1" onclick="logLeftScore()">+1</button>
-                <button class="plus" id="Plus2">+2</button>
-                <button class="plus" id="Plus3">+3</button>
+                <button class="plus" id="Plus1" onclick="logLeftScore1()">+1</button>
+                <button class="plus" id="Plus2" onclick="logLeftScore2()">+2</button>
+                <button class="plus" id="Plus3" onclick="logLeftScore3()">+3</button>
             </div>
+            <button class="reset-button" id="reset-left" onclick="resetLeftScore()">Reset Home Score</button>
         </div>
         <div class="item-block">
             <p class="score-title">Away</p>
@@ -30,10 +31,11 @@
                 <h1 class="score" id="right-score">0</h1>
             </div>
             <div class="count-row">
-                <button class="plus" id="Plus1">+1</button>
-                <button class="plus" id="Plus2">+2</button>
-                <button class="plus" id="Plus3">+3</button>
+                <button class="plus" id="Plus1" onclick="logRightScore1()">+1</button>
+                <button class="plus" id="Plus2" onclick="logRightScore2()">+2</button>
+                <button class="plus" id="Plus3" onclick="logRightScore3()">+3</button>
             </div>
+            <button class="reset-button" id="reset-right" onclick="resetRightScore()">Reset Away Score</button>
         </div>
     </div>
     
